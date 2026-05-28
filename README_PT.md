@@ -144,32 +144,6 @@ const projeto = require('seu-projeto');
 const config = { timeout: 5000 };
 const resultado = await projeto.processarAsync(dados, config);
 ```
-```
-
-### 10. **Estrutura do Projeto**
-
-```markdown
-## 📁 Estrutura do Projeto
-
-```
-├── src/
-│   ├── index.js
-│   ├── config/
-│   │   └── database.js
-│   └── utils/
-│       └── helpers.js
-├── tests/
-│   ├── unit/
-│   └── integration/
-├── docs/
-│   └── API.md
-├── .gitignore
-├── .env.example
-├── README.md
-├── package.json
-└── LICENSE
-```
-```
 
 ### 11. **Tecnologias Utilizadas**
 
