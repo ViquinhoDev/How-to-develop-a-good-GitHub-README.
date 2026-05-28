@@ -80,6 +80,7 @@ Os títulos são criados com `#`. Quanto mais `#`, menor o título:
 ```
 
 **Resultado:**
+
 # Título H1
 ## Título H2
 ### Título H3
@@ -104,7 +105,9 @@ __Também em negrito__
 ```
 
 **Resultado:**
+
 **Texto em negrito**
+
 __Também em negrito__
 
 ### Itálico
@@ -117,7 +120,9 @@ _Também em itálico_
 ```
 
 **Resultado:**
+
 *Texto em itálico*
+
 _Também em itálico_
 
 ### Negrito e Itálico
@@ -130,7 +135,9 @@ ___Também negrito e itálico___
 ```
 
 **Resultado:**
+
 ***Negrito e itálico***
+
 ___Também negrito e itálico___
 
 ### Texto Riscado
@@ -142,6 +149,7 @@ Para riscar um texto, use dois til ~:
 ```
 
 **Resultado:**
+
 ~~Texto riscado~~
 
 ### Combinações
@@ -155,12 +163,12 @@ Você pode combinar formatações:
 ```
 
 **Resultado:**
-**Negrito com *itálico* dentro**
-***Tudo junto***
-~~**Negrito riscado**~~
 
-> [!WARNING]
-> Nem todos os navegadores suportam todas as combinações. Teste sempre!
+**Negrito com *itálico* dentro**
+
+***Tudo junto***
+
+~~**Negrito riscado**~~
 
 ---
 
@@ -183,6 +191,7 @@ Use `-`, `*` ou `+`:
 ```
 
 **Resultado:**
+
 - Item 1
 - Item 2
 - Item 3
@@ -201,6 +210,7 @@ Adicione espaço (2 ou 4 espaços, ou 1 tab):
 ```
 
 **Resultado:**
+
 - Item 1
   - Sub-item 1.1
   - Sub-item 1.2
@@ -223,6 +233,7 @@ Use números seguidos de ponto:
 ```
 
 **Resultado:**
+
 1. Primeiro item
 2. Segundo item
 3. Terceiro item
@@ -239,6 +250,7 @@ Use `[ ]` para incompletas e `[x]` para completas:
 ```
 
 **Resultado:**
+
 - [x] Tarefa concluída
 - [x] Outra tarefa pronta
 - [ ] Tarefa pendente
@@ -264,6 +276,7 @@ Use `|` para separar colunas e `-` para separar cabeçalho do corpo:
 ```
 
 **Resultado:**
+
 | Nome | Idade | Cidade |
 |------|-------|--------|
 | João | 25    | São Paulo |
@@ -282,6 +295,7 @@ Use `:` para alinhar:
 ```
 
 **Resultado:**
+
 | Esquerda | Centro | Direita |
 |:---------|:------:|----------:|
 | Esq 1    | Cen 1  |     Dir 1 |
@@ -303,8 +317,11 @@ Use `:` para alinhar:
 ```
 
 **Resultado:**
+
 [Texto do link](https://www.google.com)
+
 [Link com título](https://www.github.com "Ir para GitHub")
+
 <https://www.example.com>
 
 ### Links Internos
@@ -349,6 +366,7 @@ Use `>` para criar citações:
 ```
 
 **Resultado:**
+
 > Esta é uma citação simples
 
 ### Blockquotes Aninhadas
@@ -361,6 +379,7 @@ Use `>` para criar citações:
 ```
 
 **Resultado:**
+
 > Primeira linha
 > Segunda linha
 >
@@ -370,7 +389,7 @@ Use `>` para criar citações:
 
 GitHub suporta vários tipos de alerts com `> [!TIPO]`:
 
-#### NOTE - Informação General
+#### NOTE - Informação Geral
 
 ```
 > [!NOTE]
@@ -444,23 +463,11 @@ Execute `npm start` para iniciar o servidor.
 ```
 
 **Resultado:**
+
 Use `npm install` para instalar dependências.
 Execute `npm start` para iniciar o servidor.
 
-### Bloco de Código
-
-Use 3 backticks (`) para criar blocos:
-
-```
-console.log('Hello, World!');
-const x = 42;
-```
-
-### Bloco com Linguagem
-
-Especifique a linguagem para syntax highlighting:
-
-#### JavaScript
+### Bloco de Código - JavaScript
 
 ```javascript
 const greeting = 'Hello, World!';
@@ -471,7 +478,7 @@ function add(a, b) {
 }
 ```
 
-#### Python
+### Bloco de Código - Python
 
 ```python
 greeting = "Hello, World!"
@@ -481,7 +488,7 @@ def add(a, b):
     return a + b
 ```
 
-#### HTML
+### Bloco de Código - HTML
 
 ```html
 <!DOCTYPE html>
@@ -495,7 +502,7 @@ def add(a, b):
 </html>
 ```
 
-#### CSS
+### Bloco de Código - CSS
 
 ```css
 body {
@@ -510,7 +517,7 @@ body {
 }
 ```
 
-#### JSON
+### Bloco de Código - JSON
 
 ```json
 {
@@ -524,7 +531,7 @@ body {
 }
 ```
 
-#### Bash
+### Bloco de Código - Bash
 
 ```bash
 git clone https://github.com/user/repo.git
@@ -533,7 +540,7 @@ npm install
 npm start
 ```
 
-#### SQL
+### Bloco de Código - SQL
 
 ```sql
 SELECT * FROM users WHERE age > 18;
@@ -550,23 +557,12 @@ DELETE FROM logs WHERE created_at < '2023-01-01';
 
 Use `---`, `***` ou `___`:
 
-```
----
-***
-___
-```
-
-**Resultado:**
-
----
-
 ---
 
 ## Comentários com Emojis
 
 Você pode adicionar emojis para destacar informações:
 
-```
 ✅ Funcionalidade implementada
 ❌ Ainda não implementado
 ⚠️ Requer atenção
@@ -587,32 +583,6 @@ Você pode adicionar emojis para destacar informações:
 🌐 Web
 🔧 Ferramentas
 📦 Dependência
-```
-
-**Resultado:**
-
-
-✅ Funcionalidade implementada
-❌ Ainda não implementado
-⚠️ Requer atenção
-📌 Importante
-💡 Dica útil
-🚀 Novo recurso
-🐛 Bug encontrado
-📚 Documentação
-🎯 Objetivo
-📝 Nota
-💬 Comentário
-🔗 Referência
-📊 Estatísticas
-🎨 Design
-⚙️ Configuração
-🔐 Segurança
-📱 Mobile
-🌐 Web
-🔧 Ferramentas
-📦 Dependência
-
 
 ---
 
@@ -620,10 +590,10 @@ Você pode adicionar emojis para destacar informações:
 
 ### Exemplo 1: Seção de Instalação
 
-```
 ## 🚀 Instalação
 
 ### Pré-requisitos
+
 - Node.js >= 14.0
 - npm >= 6.0
 - Git
@@ -631,34 +601,37 @@ Você pode adicionar emojis para destacar informações:
 ### Passos
 
 1. Clone o repositório:
+
 ```bash
 git clone https://github.com/seu-usuario/seu-repo.git
 cd seu-repo
 ```
 
 2. Instale as dependências:
+
 ```bash
 npm install
 ```
 
 3. Configure as variáveis de ambiente:
+
 ```bash
 cp .env.example .env
 ```
 
 > [!NOTE]
 > Certifique-se de preencher corretamente o arquivo `.env`!
-```
+
+---
 
 ### Exemplo 2: Seção de Features
 
-```
 ## ✨ Features
 
-- [x] ✅ Login de usuário
-- [x] ✅ Dashboard
-- [ ] ⏳ Integração com API externa
-- [ ] ⏳ Exportar para PDF
+- [x] Login de usuário
+- [x] Dashboard
+- [ ] Integração com API externa
+- [ ] Exportar para PDF
 
 | Feature | Status | Data |
 |---------|--------|------|
@@ -666,16 +639,17 @@ cp .env.example .env
 | Dashboard | ✅ Completo | 2024-01-15 |
 | Relatórios | ⏳ Em andamento | --- |
 | Export | ❌ Planejado | --- |
-```
+
+---
 
 ### Exemplo 3: Seção de Troubleshooting
 
-```
 ## 🔧 Troubleshooting
 
 ### Problema: npm install não funciona
 
 **Solução:**
+
 ```bash
 rm -rf node_modules package-lock.json
 npm cache clean --force
@@ -688,19 +662,14 @@ npm install
 ### Problema: Porta 3000 já está em uso
 
 **Solução:**
+
 ```bash
-# No macOS/Linux
 lsof -i :3000
 kill -9 <PID>
-
-# No Windows
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
 ```
 
 > [!TIP]
 > Você pode usar outra porta: `npm start -- --port 8000`
-```
 
 ---
 
@@ -735,20 +704,20 @@ taskkill /PID <PID> /F
 
 ### ❌ Evite
 
-```
-❌ Parágrafos muito longos
-❌ Muitos emojis sem propósito
-❌ Código quebrado ou desatualizado
-❌ Links quebrados
-❌ Misturar idiomas sem organizar
-```
+- ❌ Parágrafos muito longos
+- ❌ Muitos emojis sem propósito
+- ❌ Código quebrado ou desatualizado
+- ❌ Links quebrados
+- ❌ Misturar idiomas sem organizar
 
-### 📚 Recursos Úteis
+---
 
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub Markdown Syntax](https://docs.github.com/en/get-started/writing-on-github)
-- [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
-- [Shields.io - Badges](https://shields.io/)
+## 📚 Recursos Úteis
+
+- Markdown Guide: https://www.markdownguide.org/
+- GitHub Markdown Syntax: https://docs.github.com/en/get-started/writing-on-github
+- Emoji Cheat Sheet: https://www.webfx.com/tools/emoji-cheat-sheet/
+- Shields.io - Badges: https://shields.io/
 
 ---
 
@@ -756,10 +725,10 @@ taskkill /PID <PID> /F
 
 Agora que você conhece Markdown básico:
 
-1. ✅ **Crie um README** para um de seus projetos
-2. ✅ **Peça feedback** para amigos
-3. ✅ **Melhore continuamente** baseado no feedback
-4. ✅ **Inspire-se** em outros READMEs bons
+1. Crie um README para um de seus projetos
+2. Peça feedback para amigos
+3. Melhore continuamente baseado no feedback
+4. Inspire-se em outros READMEs bons
 
 Lembre-se: um bom README é um projeto vivo que evolui com seu código!
 
@@ -768,6 +737,7 @@ Lembre-se: um bom README é um projeto vivo que evolui com seu código!
 ## 🤝 Contribuindo
 
 Encontrou um erro ou quer adicionar algo? Sinta-se livre para:
+
 - Abrir uma issue
 - Fazer um fork e enviar um pull request
 - Sugerir melhorias
@@ -782,7 +752,7 @@ Este projeto está sob a licença MIT.
 
 ## 📞 Contato
 
-- GitHub: [@ViquinhoDev](https://github.com/ViquinhoDev)
+- GitHub: @ViquinhoDev
 
 ---
 
